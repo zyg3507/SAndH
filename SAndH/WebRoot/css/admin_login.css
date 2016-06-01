@@ -1,0 +1,240 @@
+*{margin:0px;padding:0px;}
+a{text-decoration:none;}
+ul li{list-style:none;}
+
+#wrapper{
+         width:100%;
+		 /*height:1000px;*/
+		 
+		min-width: 1280px;
+		min-height: 680px;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		background:#396AB6;
+		background-image: -moz-linear-gradient(top, #77D1F6, #2F368F);
+		
+		 }
+header{
+       
+	   width:100%;
+	   height:100px;
+	   /*background: #709BCB;*/
+	   }
+header #header{
+        
+		width:750px;
+		height:95px;
+		margin:0 auto;
+		background-color: #1C75BC;
+		border-radius: 18px;
+	    /*background-color:#1C75BC;*/
+	    opacity:0.6;
+		}
+header #header #title{
+        ;
+		width:300px;
+		height:75px;
+		margin:0 auto;
+		font-size:35px;
+		font-weight:700;
+		text-align:center;
+		padding-top:20px;
+		}
+
+
+.content{
+       
+	   width:100%;
+	   height:470px;
+	   /*background:#709BCB;*/
+	   }
+
+.content .main{
+       
+	   width:750px;
+	   height:400px;
+	   margin:0 auto;
+	   margin-top:30px;
+	   border-radius: 18px;
+       background-color:#cdf;
+       opacity:0.5;
+	   }
+.content .main .mainPanel{
+       border:25px solid #16181A;
+	   width:700px;
+	   height:350px;
+	   margin:0 auto;
+	   border-radius: 18px;
+	   }
+
+.content .main .mainPanel .left{
+       
+	   width:345px;
+	   height:350px;
+	   float:left;
+	   
+	   }
+.content .main .mainPanel .left #img{
+       border-right:1px solid  #DACCCC;
+	   width:256px;
+	   height:256px;
+	   margin:0 auto;
+	   margin-top:40px;
+	   background-image:url('../images/admin.png');
+	   }
+
+
+.content .main .mainPanel .right{
+       
+	   width:345px;
+	   height:350px;
+	   float:left;
+	   
+	   }
+
+#welcome {
+    
+	margin-top: 20px;
+	height: 60px;
+	width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 60px;
+	text-align: center;
+}
+
+#welcome #welcome-text {
+   /*  border:1px solid blue; */
+	font-size: 33px;
+	font-weight: bold;
+	font-family: ΢���ź�;
+	text-shadow: 0 1px 1px #F6F6F6;
+}
+
+#user-name {
+    
+	height: 35px;
+	width: 100%;
+	margin-top: 15px;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 35px;
+}
+
+#user-password {
+    
+	margin-top: 15px;
+	height: 35px;
+	width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 35px;
+}
+
+#user-checkcode {
+	margin-top: 30px;
+	height: 35px;
+	width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 35px;
+}
+#button-group {
+	margin-top: 10px;
+	height: 35px;
+	width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+}
+#error-tip {
+	margin-top: 20px;
+	margin-left: 5%;
+	height: 40px;
+	width: 90%;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: 2px solid #F6F6F6;
+	border-bottom-style: groove;
+}
+
+#error-tip #tip-text {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: ΢���ź�;
+	color: red;
+}
+
+.item {
+	margin-left: 20px;
+	font-family: ΢���ź�;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	width: 80px;
+	margin-top: 3px;
+	text-align: center;
+	text-shadow: 0 1px 1px #F6F6F6;
+}
+
+.input {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#checkcode-img {
+	margin-top: 3px;
+	height: 20px;
+	width: 60px;
+	border:1px solid red;
+}
+
+.form-input {
+    
+	height: 30px;
+}
+
+.btn {
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	margin: 10px 5px;
+	height: 40px;
+	width: 80px;
+	text-align: center;
+	border-radius: 4px;
+	border-color: #636263 #464647 #A1A3A5;
+	text-shadow: 0 1px 1px #F6F6F6;
+	background-image: -moz-linear-gradient(center top, #D9D9D9, #A6A6A6 49%, #A6A6A6 50%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D9D9D9),
+		color-stop(1, #A6A6A6) );
+}
+
+
+
+footer{
+       
+	   width:100%;
+	   height:100px;
+	   
+	   }
+	   
+.div1{margin-top:30px;text-indent:13px;color:red;}
+
+footer .text {
+	text-align: center;
+	font-size: 14px;
+	font-family: ΢���ź�;
+	font-weight: bold;
+	
+	width:800px;
+	height:60px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+footer .text p{
+               line-height:30px;
+			   }

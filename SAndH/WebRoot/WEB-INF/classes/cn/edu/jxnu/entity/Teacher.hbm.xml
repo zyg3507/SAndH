@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--
+
+-->
+<hibernate-mapping package="org.hibernate.test.component.basic">
+ 
+ <class name="cn.edu.jxnu.entity.Teacher" table="Teacher" >
+	<id name="tid" type="java.lang.String">
+		<column name="TID" length="20"/>
+		<generator class="assigned" />
+	</id>
+	<property  name="tname" type="java.lang.String">
+		<column name="tname" />
+	</property>
+	<property  name="gender" type="java.lang.String">
+		<column name="gender" />
+	</property>
+	<property  name="birthday" type="date">
+		<column name="birthday" />
+	</property>
+	<property  name="address" type="java.lang.String">
+		<column name="address" />
+	</property>
+</class>
+</hibernate-mapping>
+

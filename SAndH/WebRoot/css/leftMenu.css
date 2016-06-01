@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #0D0D0D;
+	font-family: Helvetica;
+}
+
+.menu ul {list-style: none;margin: 0;padding: 0;width: 150px;}
+.menu ul li ul {width: 150px;margin: 0 auto;}
+.menu ul li a {
+	padding-top: 5px;
+	border-color: #404040 #1A1A1A #1A1A1A #505050;
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 10px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font: bold 17px Arial, Helvetica, sans-serif;
+	height: 30px;
+}
+
+.menu ul li ul a {
+	border-color: #404040 #1A1A1A #1A1A1A #505050;
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 10px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	height: 25px;
+	background: #0D0D0D;
+}
+
+.menu ul li a:hover {
+	background: royalblue;
+}
+
+.menu ul li ul a:hover {
+	background: royalblue;
+}
+
+.menu ul li ul {
+	display: none;
+}
